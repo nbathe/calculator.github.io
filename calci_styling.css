@@ -1,19 +1,22 @@
 body{
-    background-image: linear-gradient(to right, rgb(255, 98, 101),rgb(252, 162, 79),rgba(252, 163, 79, 0.589));
+    background-image: url("blob-scene-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Century Gothic;
     font-size: 45px;
     color: white;
 }
 .container{
-    top: 15%;
-    left:35%;
+    top: 22%;
+    left:40%;
     background-color: rgb(34, 59, 87);
     position: fixed;
     border-radius: 14px;
     padding-bottom: 20px;
     width: 350px;
+    box-shadow: rgb(0, 0, 0) 2.95px 2.95px 2.6px;
 }
-.container1{
+    .container1{
     
     background-color: rgb(34, 59, 87);
     position: fixed;
@@ -21,7 +24,7 @@ body{
     padding-bottom: 20px;
     width: 350px;
     align-items: center;
-    
+    box-shadow: rgb(0, 0, 0) 2.95px 2.95px 2.6px;
 }
 input[type="text"]{
     width: 330px;
@@ -117,3 +120,16 @@ input[type="text"]{
     background-color: rgba(0, 0, 0, 0.712);
     border: rgba(250, 250, 250, 0.6);        
 }
+
+body {
+    color:#fff;
+    padding-top:2.5%;
+    padding-left: 5%;
+}
+h1{
+    color: #fff;
+    font-family: monospace;
+    font-size: 85px;
+
+}
+  * { color:#fff; text-decoration: none;}
